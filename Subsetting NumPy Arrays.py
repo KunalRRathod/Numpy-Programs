@@ -1,5 +1,6 @@
 import pandas as pd
-mlb = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/intro_to_python/baseball.csv")
+#any CSV dataset
+mlb = pd.read_csv(".csv")
 height = mlb['Height'].tolist()
 weight = mlb['Weight'].tolist()
 
