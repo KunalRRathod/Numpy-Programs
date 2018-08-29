@@ -1,5 +1,6 @@
 import pandas as pd
-baseball = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/intro_to_python/baseball.csv")[['Height', 'Weight']].as_matrix().tolist()
+#any CSV dataset
+baseball = pd.read_csv(".csv")[['Height', 'Weight']].as_matrix().tolist()
 
 # Import numpy package
 import numpy as np
