@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
-baseball = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/intro_to_python/baseball.csv")[['Height', 'Weight', 'Age']].as_matrix().tolist()
+#Use any CSV file as your dataset and Modify them accordingly.
+baseball = pd.read_csv(".csv")[['Height', 'Weight', 'Age']].as_matrix().tolist()
 n = len(baseball)
-updated = np.array(pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/intro_to_python/update.csv", header = None))
+updated = np.array(pd.read_csv(".csv", header = None))
 
 
 # Create np_baseball (3 cols)
